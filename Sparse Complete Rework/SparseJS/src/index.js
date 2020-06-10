@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const config = require("./config");
 
 
-mongoose.connect("mongodb+srv://Penika:Dinofunny1@sparse-xhqub.gcp.mongodb.net/test?retryWrites=true&w=majority", {
+mongoose.connect("", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
